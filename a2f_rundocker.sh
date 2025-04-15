@@ -5,7 +5,7 @@ set -e
 cd "$LOCAL_CONFIGS"
 
 # [2] 도커 로그인 (ID = $oauthtoken 문자 그대로 사용)
-echo "$NGC_API_KEY" | docker login nvcr.io -u '$oauthtoken' --password-stdin
+echo "$NGC_API_KEY" | sudo docker login nvcr.io -u '$oauthtoken' --password-stdin
 
 # [3] 도커 컨테이너 실행 및 명령 실행 자동화
 sudo docker run -it --rm --name audio2face-3d \
