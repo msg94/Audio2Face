@@ -3,7 +3,7 @@ WSL 버전 :  WSL2
 Ubuntu 버전 : 24.04
 
 실행 순서. 
-1. `git clone https://github.com/msg94/Audio2Face.git`
+1. ```git clone https://github.com/msg94/Audio2Face.git```
 2. `sudo ./Audio2Face/a2f_autoinstall.sh` 입력
 3. 설치 완료후 WSL 자동 종료 후  수동으로 재실행
 4. `./Audio2Face/a2f_envset.sh` 입력
