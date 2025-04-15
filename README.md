@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3864b7f7-a16f-41d1-a5f2-836133f04dbc)# Audio 2 Face WSL2 자동화 스크립트
+# Audio 2 Face WSL2 자동화 스크립트
 
 ### WSL 버전 :  WSL2
 
