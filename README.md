@@ -98,6 +98,7 @@ py -m venv .venv
 5.wheel 설치 및 requiments 설치
 ```
 cd .\ACE\microservices\audio_2_face_microservice\1.2\proto\sample_wheel
+pip install navidia_acd-1.0.0-py3-none-any.whl
 cd ..\..\scripts\audio2face_api_client
 pip install -r .\requirements
 ```
