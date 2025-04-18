@@ -1,4 +1,5 @@
 #Issue
+
 1. Powershell 관리자 권한 실행
 2. wsl --unregister [우분투 버전]
 
