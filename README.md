@@ -1,3 +1,9 @@
+#Issue
+Ubuntu24.04 실행 후 Pstree 입력시 init으로 뜨면 Systemd로 변경작업 필수
+https://askubuntu.com/questions/1379425/system-has-not-been-booted-with-systemd-as-init-system-pid-1-cant-operate
+ https://github.com/microsoft/WSL/releases
+ - Microsoft.WSL_2.5.6.0_x64_ARM64.msixbundle 최신 릴리즈 설치
+   
 # Audio 2 Face WSL2 자동화 스크립트
 
 ### WSL 버전 :  WSL2
