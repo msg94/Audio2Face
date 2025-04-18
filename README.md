@@ -1,8 +1,19 @@
 #Issue
-Ubuntu24.04 실행 후 Pstree 입력시 init으로 뜨면 Systemd로 변경작업 필수
-https://askubuntu.com/questions/1379425/system-has-not-been-booted-with-systemd-as-init-system-pid-1-cant-operate
- https://github.com/microsoft/WSL/releases
- - Microsoft.WSL_2.5.6.0_x64_ARM64.msixbundle 최신 릴리즈 설치
+1. Powershell 관리자 권한 실행
+2. wsl --unregister [우분투 버전]
+
+   우분투 버전은 wsl --list 입력후 나오는 버전
+
+   (ex)
+
+   ![image](https://github.com/user-attachments/assets/d10e0782-4841-48d9-a8fd-c90ceef6d31a)
+3. Ubuntu 재실행 후 pstree 실행 해도 안바뀔시 
+
+4.Ubuntu24.04 실행 후 Pstree 입력시 init으로 뜨면 Systemd로 변경작업 필수
+
+5.https://askubuntu.com/questions/1379425/system-has-not-been-booted-with-systemd-as-init-system-pid-1-cant-operate
+  https://github.com/microsoft/WSL/releases
+  - Microsoft.WSL_2.5.6.0_x64_ARM64.msixbundle 최신 릴리즈 설치
    
 # Audio 2 Face WSL2 자동화 스크립트
 
