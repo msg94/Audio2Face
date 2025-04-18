@@ -94,10 +94,11 @@ py -m venv .venv
 ```
 ![image](https://github.com/user-attachments/assets/566dedb0-1fac-4f0a-8e30-730b94c5faf7)
 가상환경 진입
+
 5.wheel 설치 및 requiments 설치
 ```
 cd .\ACE\microservices\audio_2_face_microservice\1.2\proto\sample_wheel
-cd ..\scripts\audio2face_api_client
+cd ..\..\scripts\audio2face_api_client
 pip install -r .\requirements
 ```
 
