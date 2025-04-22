@@ -56,6 +56,13 @@ export
  명령어 입력후 다시 export 입력하여 확인
 
 6. 도커 이미지 실행 및 A2F 실행
+
+처음 환경 구축시 아래 명령어 입력
+```
+./Audio2Face/a2f_rundocker.sh 1
+```
+
+처음 실행이 아닐시 아래 명령어 입력
 ```
 ./Audio2Face/a2f_rundocker.sh
 ```
@@ -119,7 +126,7 @@ py nim_a2f_3d_client.py ..\..\example_audio\news.wav .\config\config_bodyguard.y
 
 웹소켓이 없다는 에러 뜰시
 ```
-pip isntall websocekt
+pip install websocekts
 ```
 ![image](https://github.com/user-attachments/assets/20387f78-bad6-44ca-8064-9922d4abed7e)
 
