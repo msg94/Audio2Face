@@ -127,7 +127,7 @@ py nim_a2f_3d_client.py ..\..\example_audio\news.wav .\config\config_bodyguard.y
 
 웹소켓이 없다는 에러 뜰시
 ```
-pip install websocekts
+pip install websockets
 ```
 ![image](https://github.com/user-attachments/assets/20387f78-bad6-44ca-8064-9922d4abed7e)
 
